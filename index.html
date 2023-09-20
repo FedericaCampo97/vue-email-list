@@ -8,10 +8,9 @@
 <body>
     <div id="app">
 
-        <ul>
+        <ul v-if="emailList.length == 10">
             <li v-for="element in emailList">
                 {{element}}
-
             </li>
 
         </ul>
